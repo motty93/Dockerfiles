@@ -1,0 +1,6 @@
+FROM ubuntu:16.04
+
+COPY ./sh/sample.sh /sample.sh
+RUN chmod 755 /sample.sh
+
+ENTRYPOINT ["/sample.sh"]
