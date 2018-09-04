@@ -7,6 +7,14 @@
 * ENTRYPOINTとの違いは、主に、docker runを行う際に実行されるデフォルトコマンドを指定すること。
 * 複数記述した場合には最後のENTRYPOINTの記述が有効となる。
 
+## Dockerfile指定
+
+`docker build -f`でファイルを指定する。
+
+```
+$ docker build -f dockerfiles/Dockerfile_test -t test .
+```
+
 ## ubuntu上でnginx起動
 
 ```
