@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV myName takumi sasamoto
+ENV myName motty93
 ENV myDog cherry
 ENV myCat muu
 

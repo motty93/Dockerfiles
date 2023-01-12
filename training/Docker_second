@@ -1,5 +1,5 @@
 FROM ubuntu
 
-ENV myName="takumi sasamoto" myCat="muu"
+ENV myName="motty" myCat="muu"
 
 RUN echo "$myName, $myCat"
